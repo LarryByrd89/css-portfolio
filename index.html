@@ -11,9 +11,9 @@
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#skills">Skills</a></li> 
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="img/Laryn Myrick_resume2023_08.pdf" target="_blank">Resume</a></li>
         </ul>
     </nav>
 
@@ -23,53 +23,66 @@
         <img src="img/profile.JPG" alt="My Photo">
     </header>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Graduate of Georgia State University in Clinical Healthcare Informatics. Currently, a full Stack student at the University of Central Florida.</p>
-    </section>
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          I'm a Gulf Coast native, born and raised in Mississippi, with a passion for clinical health informatics. I hold a Bachelor of Interdisciplinary Studies in Clinical Health Informatics from Georgia State University, where I graduated in 2017.
+        </p>
+        <p>
+          My educational journey equipped me with in-depth knowledge in areas such as advanced medical terminology, electronic health records, database management, project management, leadership, healthcare security and privacy, healthcare policy and law, statistics, healthcare economics, and more.
+        </p>
+        <p>
+          Currently, I'm further honing my skills as a Full Stack Web Developer at the University of Central Florida (UCF), where I'm enrolled in a comprehensive program covering HTML, CSS, JavaScript, Node.js, Express.js, SQL, React, and more. This program at UCF complements my background in health informatics and enhances my abilities in web development.
+        </p>
+      </div>
+    </div>
+  </section>
 
     <!-- Projects -->
-    <section id="work">
-        <h2>My Work</h2>
-      
-        <div class="project-container">
-            <!-- Project 1 -->
-            <div class="project-item">
-                <a href="https://github.com/LarryByrd89/html-challenge" target="_blank">
+    <main>
+        <section id="projects">
+        <section class="row justify-center">
+            <h2>Projects</h2>
+            <div class="card-column project-item">
+                <a href="https://larrybyrd89.github.io/html-challenge/" target="_blank">
                     <img src="img/html-challenge.png" alt="Project 1">
-                    <h3>Horiseon Page</h3>
+                    <h2 class="card-header">Horiseon Page</h2>
                 </a>
-                <p>Refactoring an existing site to make it more user-friendly using HTML and CSS</p>
+                <p>In this challenge, I refactored an existing site to make it more user-friendly using HTML and CSS</p>
             </div>
-
-            <!-- Project 2 -->
-            <div class="project-item">
-                <a href="https://github.com/Titan-MP/weather-event" target="_blank">
+    
+            <div class="card-column project-item">
+                <a href="https://titan-mp.github.io/weather-event/" target="_blank">
                     <img src="img/weatherapp.jpg" alt="Project 2">
-                    <h3>Weather & Events Application</h3>
+                    <h2 class="card-header">Weather & Events Application</h2>
                 </a>
                 <p>This project includes a search capability by city or zipcode that will allow the user to view not only their five-day forecast but local major music events nearby.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
+            <div class="card-column project-item">
+                <a href="https://take-a-hike-quito-2bdfd3666c8e.herokuapp.com/" target="_blank">
+                    <img src="img/take-a-hike.png" alt="Project 3">
+                    <h2 class="card-header">Take a Hike Application</h2>
+                </a>
+                <p>This project allows users to discover, organize, and join local and global hiking events, creating lasting connections with like-minded outdoor enthusiasts, and promoting an active lifestyle while fostering environmental awareness as a social media page.</p>
+            </div>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at: laryn.n99@gmail.com</p>
+        </section>
+    </main>
+    
+
+  <!-- Contact -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+        <p>Email: <a href="mailto:laryn.n99@gmail.com">laryn.n99@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/LarryByrd89" target="_blank">LarryByrd89</a></p>
-    </section>
+    </div>
+</section>
+
 
     <!-- Footer -->
     <footer>
@@ -77,6 +90,7 @@
     </footer>
 </body>
 </html>
+
 
 
 

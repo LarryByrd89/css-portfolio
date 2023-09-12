@@ -1,9 +1,7 @@
-
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -15,7 +13,7 @@ body {
 nav {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -25,20 +23,20 @@ nav ul {
 }
 
 nav li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
+    font-size: 40px;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ff6600; 
+    color: #ff6600;
 }
-
 
 header {
     text-align: center;
@@ -46,15 +44,39 @@ header {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 80px;
     margin-bottom: 10px;
 }
 
 header img {
     border-radius: 50%;
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
 }
+
+
+/* About Section */
+#about {
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .about-text {
+    max-width: 1000px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
+
 
 /* Section Styles */
 section {
@@ -62,16 +84,15 @@ section {
 }
 
 section h2 {
-    font-size: 24px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 
 section p {
-    font-size: 16px;
+    font-size: 35px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
-
 
 .work-item {
     margin-bottom: 40px;
@@ -84,14 +105,13 @@ section p {
     border-radius: 4px;
 }
 
-
 footer {
     text-align: center;
+    font-size: 20px;
     padding: 10px 0;
     background-color: #333;
     color: #fff;
 }
-
 
 @media (max-width: 768px) {
     header h1 {
@@ -102,3 +122,32 @@ footer {
         max-width: 150px;
     }
 }
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.project-item a:hover {
+    color: #ff6600;
+    text-shadow: 0 0 10px rgba(255, 102, 0, 0.8);
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
