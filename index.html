@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Laryn's Portfolio</title>
 </head>
 <body>
     <!-- Navigation -->
@@ -20,7 +20,7 @@
     <!-- Header -->
     <header>
         <h1>Laryn Myrick</h1>
-        <img src="img.jpg" alt="My Photo">
+        <img src="img/profile.JPG" alt="My Photo">
     </header>
 
     <!-- About -->
@@ -33,15 +33,25 @@
     <section id="work">
         <h2>My Work</h2>
       
-        <div class="work-item">
-            <img src="placeholder1.jpg" alt="Placeholder 1">
-            <p>Project 1</p>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-item">
+                <a href="https://github.com/LarryByrd89/html-challenge" target="_blank">
+                    <img src="img/html-challenge.png" alt="Project 1">
+                    <h3>Horiseon Page</h3>
+                </a>
+                <p>Refactoring an existing site to make it more user-friendly using HTML and CSS</p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-item">
+                <a href="https://github.com/Titan-MP/weather-event" target="_blank">
+                    <img src="img/weatherapp.jpg" alt="Project 2">
+                    <h3>Weather & Events Application</h3>
+                </a>
+                <p>This project includes a search capability by city or zipcode that will allow the user to view not only their five-day forecast but local major music events nearby.</p>
+            </div>
         </div>
-        <div class="work-item">
-            <img src="placeholder2.jpg" alt="Placeholder 2">
-            <p>Project 2</p>
-        </div>
-       
     </section>
 
     <!-- Skills -->
@@ -51,26 +61,23 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-          
         </ul>
     </section>
 
     <!-- Contact -->
-   <!-- Contact -->
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>You can reach me at: laryn.n99@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/LarryByrd89" target="_blank">LarryByrd89</a></p>
-</section>
-
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>You can reach me at: laryn.n99@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/LarryByrd89" target="_blank">LarryByrd89</a></p>
+    </section>
 
     <!-- Footer -->
-
     <footer>
         <p>&copy; 2023 Laryn Myrick</p>
     </footer>
 </body>
 </html>
+
 
 
 
