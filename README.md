@@ -10,6 +10,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact Section](#contact)
+- [Resources] (#resources)
 
 ## Description
 
@@ -55,6 +56,12 @@ For questions or inquiries, feel free to contact me:
 [![Email Laryn Myrick](https://img.shields.io/badge/Email-laryn.n99%40gmail.com-blue?style=for-the-badge)](mailto:laryn.n99@gmail.com)
 
 [![GitHub LarryByrd89](https://img.shields.io/badge/GitHub-LarryByrd89-blue?style=for-the-badge&logo=github)](https://github.com/LarryByrd89)
+
+## Resources
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/)
 
 
 
